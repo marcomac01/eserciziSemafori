@@ -4,7 +4,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 public class CronometroSemaforizzato extends Thread{
-	private Semaphore sem;
+	final private Semaphore sem;
 	private int numSecondi = 1;
 	public CronometroSemaforizzato(){
 		super();

@@ -3,7 +3,7 @@ package sequenze.ababababab;
 import java.util.concurrent.Semaphore;
 
 public class A extends Thread{
-    private Semaphore s1, s2;
+    final private Semaphore s1, s2;
 
     public A(Semaphore s1, Semaphore s2){
         super();
