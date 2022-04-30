@@ -48,7 +48,7 @@ public class Tifoseria {
                     }
                     sem2.release();
                 }
-                System.out.println("____________");
+                System.out.println("_________________");
                 selettore = !selettore;
                 sem3.release();
             } catch (Exception e) {}
